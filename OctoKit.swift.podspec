@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/nerdishbynature/octokit.swift"
   s.license          = { :type => "MIT", :file => "LICENSE" }
   s.author           = { "Piet Brauer" => "piet@nerdishbynature.com" }
-  s.source           = { :git => "https://github.com/nerdishbynature/octokit.swift.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/mapbox/octokit.swift.git", :branch => 'mapbox-podspec' }
   s.social_media_url = "https://twitter.com/pietbrauer"
   s.module_name     = "Octokit"
-  s.dependency "NBNRequestKit", "~> 0.3.0"
+  s.dependency "NBNRequestKit"
   s.requires_arc = true
   s.source_files = "OctoKit/*.swift"
   s.ios.deployment_target = '8.0'
